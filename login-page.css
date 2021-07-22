@@ -109,3 +109,11 @@ h1{
 .column img {
   margin: 2px;
 }
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
