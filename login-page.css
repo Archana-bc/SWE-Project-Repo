@@ -85,14 +85,21 @@ h1{
   outline: none;
 }
 
+.button:hover {background-color: #afb3af}
+
+.button:active {
+  background-color: #afb3af;
+  box-shadow: 0 5px rgb(158, 158, 158);
+  transform: translateY(4px);
+}
 .button {
   border-radius: 12px;
-  padding: 5px 5px;
-  background-color: #A2DBFA;
+  padding: 3px 3px;
+  background-color: #cae0eb;
   display: inline-block;
-  border: 2px solid #39A2DB;
-  margin-left: 5px;
-  margin-right: 5px;
+  border: 1px solid #cae0eb;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 .row{
